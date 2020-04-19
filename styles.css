@@ -1,0 +1,226 @@
+#header{
+    font-family: sans-serif;
+    display: flex;
+    background-color: #143a7e;
+    width: 100%;
+    height: 80px;
+    border: 0;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    top: 0;
+}
+
+#header h1{
+    color: #FFFFFF;
+    margin-left:600px;
+    padding: 0 40px;
+}
+
+#nav ul{
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    width: 50%;
+    max-width: 224px;
+    padding: 12px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    list-style: none;
+    margin-right: 70px;
+}
+
+#nav ul li{
+    display: list-item;
+}
+
+#nav ul li img{
+    width: 70%;
+}
+
+#container {
+    font-family: sans-serif;
+    background-color: #d3d3d3;
+    width: 100%;
+    max-width: 1320px;
+    padding:  30px 30px 30px 30px;
+    margin: 0px auto;
+}
+
+#container img{
+    width: 100%;
+}
+
+#container ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+    margin-right: 40px;
+}
+
+#container ul li{
+    background: #FFF;
+    padding: 24px;
+    border-radius: 7px;
+    position: relative;
+}
+
+#container ul li strong{
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+#container ul li p + strong{
+    margin-top: 32px;
+}
+
+#container ul li p{
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#container ul li button {
+    width: 30%;
+    height: 40px;
+    background: #143a7e;
+    border: 0;
+    border-radius: 7px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-left: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition: filter 0.2s;
+}
+
+#container ul li button:hover {
+    filter: brightness(90%);
+}
+
+#container #information{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    list-style: none;
+    margin-left: 45px;
+}
+
+#container #information #about strong{
+    margin-top: 15px;
+    display: block;
+    color: #41414d;
+    font-size: 20px;
+}
+#container #information #about p {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+#container #information #about #social a{
+    right: 30px;
+    display: inline-flex;
+    margin-right: 20px;
+    background: none;
+}
+
+#container #information #about #social a img{
+    width: 50%;
+}
+
+#container #information #about #social ul li{
+    display: list-item;
+}
+
+#container #information #about #social ul li img{
+    width: 70%;
+}
+
+#container #information #contact strong{
+    margin-top: 13px;
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+    font-size: 20px;
+}
+
+#container #information #contact form input[type="text"], [type="email"]{
+    max-width: 950px;
+    margin-top: 15px;
+    display: flex;
+    border-radius: 7px;
+    border: 0 solid;
+    left:37%;
+    width:390px;
+    height:40px;
+    text-align: center;
+}
+
+#container #information #contact form input[type="submit"] {
+    width: 30%;
+    height: 40px;
+    background: #143a7e;
+    border: 0;
+    border-radius: 7px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-left: 120px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition: filter 0.2s;
+}
+
+#container #information #contact form input[type="submit"]:hover {
+    filter: brightness(90%);
+}
+#container #information #more strong {
+    margin-top: 13px;
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+    font-size: 20px;
+}
+
+#container #information #more a{
+    display: block;
+    margin-top: 13px;
+    margin-bottom: 16px;
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 50px;
+    text-decoration:none;
+    transition: filter 0.2s;
+}
+
+#container a:hover {
+    filter: brightness(90%);
+}
+
+#footer{
+    background-color: #143a7e;
+    width: 100%;
+    height: 80px;
+    color: #FFF;
+    display: inline-block;
+}
+
+#footer p{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 18px;
+    font-size: 16px;
+}
