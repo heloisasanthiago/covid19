@@ -42,7 +42,6 @@
 #container {
     font-family: sans-serif;
     background-color: #d3d3d3;
-    width: 100%;
     max-width: 1320px;
     padding:  30px 30px 30px 30px;
     margin: 0px auto;
@@ -155,13 +154,12 @@
 }
 
 #container #information #contact form input[type="text"], [type="email"]{
-    max-width: 950px;
     margin-top: 15px;
     display: flex;
     border-radius: 7px;
     border: 0 solid;
     left:37%;
-    width:390px;
+    width:90%;
     height:40px;
     text-align: center;
 }
